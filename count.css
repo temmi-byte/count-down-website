@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 15, 26);
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.countdown-container {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.par {
+    margin-bottom: 40px;
+    color:  rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.timer {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.circle-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.bg-circle {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.2);
+    stroke-width: 10;
+    cx: 75;
+    cy: 75;
+    r: 60;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.progress-circle {
+    fill: none;
+    stroke: rgb(0, 255, 204) ;
+    stroke-width: 10;
+    stroke-dasharray: 377;
+    stroke-dashoffset: 377;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    transition: stroke-dashoffset 1s linear;
+}
+
+.content {
+    position: absolute;
+    text-align: center;
+    width:100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content h3 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    color: rgb(0, 255, 204);
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.content span {
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: #cccccc;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+
+.btn {
+    margin-top:70px;
+    height: 50px;
+    width: 250px;
+    border: 1px  #0b0f1a;
+    border-radius: 50px;
+    background-color: #00ffcc;
+    color:  #0b0f1a;
+    cursor: pointer;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.btn-02 {
+    margin-top: 15px;
+    height: 50px;
+    width: 250px;
+    border: 1px #00ffcc solid;
+    border-radius: 50px;
+    background-color: #0b0f1a;
+    color: #00ffcc;
+    cursor: pointer;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}

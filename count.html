@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Launching Countdown</title>
+    <link rel="stylesheet" href="count.css">
+</head>
+<body>
+    <div class="countdown-container">
+        <h2 class="title">WE ARE COMING SOON</h2>
+        <p class="par">Anticipate! We are coming with great energy to fill the world with greatness. So get ready for a great shift!</p>
+        <div class="timer">
+            <div class="circle-container">
+                <svg width="150" height="150">
+                    <circle class="bg-circle" cx="75" cy="75" r="60"></circle>
+                    <circle class="progress-circle" id="days-circle" cx="75" cy="75" r="60"></circle>
+                </svg>
+                <div class="content">
+                    <h3 id="days">00</h3>
+                    <span>DAYS</span> 
+                </div>
+            </div>
+            <div class="circle-container">
+                <svg width="150" height="150">
+                    <circle class="bg-circle" cx="75" cy="75" r="60"></circle>
+                    <circle class="progress-circle" id="hours-circle" cx="75" cy="75" r="60"></circle>
+                </svg>
+                <div class="content">
+                    <h3 id="hours">00</h3>
+                    <span class="fap">HOURS</span>
+                    </div>
+            </div>
+
+            <div class="circle-container">
+                <svg width="150" height="150">
+                    <circle class="bg-circle" cx="75" cy="75" r="60"></circle>
+                    <circle class="progress-circle" id="minutes-circle" cx="75" cy="75" r="60"></circle>
+                </svg>
+                <div class="content">
+                    <h3 id="minutes">00</h3>
+                    <span>MINUTES</span>
+                </div>
+            </div>
+
+            <div class="circle-container">
+                <svg width="150" height="150">
+                    <circle class="bg-circle" cx="75" cy="75" r="60"></circle>
+                    <circle class="progress-circle" id="seconds-circle" cx="75" cy="75" r="60"></circle>
+                </svg>
+                <div class="content">
+                    <h3 id="seconds">00</h3>
+                    <span>SECONDS</span>
+                </div>
+            </div>
+        </div>
+        <form action="index.html">
+            <button class="btn">
+                Main Page
+            </button><br><br>
+        </form>
+        <form action="login.html" method="get">
+            <button class="btn-02">
+                Exit
+            </button>
+        </form>
+    </div>
+<script src="count.js"></script>
+</body>
+</html>
